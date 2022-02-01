@@ -54,4 +54,4 @@ make flaskdebug
 To avoid this, make sure that you uncheck Uncaught Exceptions as it will crash the debugger when hot reloading the code after a change.
 This is possibly a bug in debugpy
 
-![VSCode Debugger Options](/assets/png/debugger.PNG)
+![VSCode Debugger Options](/assets/png/debugger.png)
