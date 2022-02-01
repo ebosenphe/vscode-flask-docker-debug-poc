@@ -1,3 +1,9 @@
+## Original article
+[Flask Debugging in VS Code with Hot-Reload 🔥](https://blog.theodo.com/2020/05/debug-flask-vscode/)
+
+
+https://github.com/adriencaccia/vscode-flask-debug
+
 ## 🔧 Prerequisites
 
 - **VS Code**
@@ -37,3 +43,14 @@
     ```
     ![VSCode Task Options](/assets/png/vsCodeTasksOptions.PNG)
 
+## Further notes
+
+    Exception is thrown during 
+    ```bash
+    make flaskdebug
+    ```
+
+    To avoid this, make sure that you uncheck Uncaught Exceptions as it will crash the debugger when hot reloading the code after a change.
+    This is possibly a bug in debugpy
+    
+    ![VSCode Debugger Options](/assets/png/debugger.PNG)
